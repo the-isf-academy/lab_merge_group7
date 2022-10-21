@@ -6,6 +6,7 @@ def main():
 
     for riddle in riddles_list:
         print(riddle["id"])
+        print(riddle['question'])
 
 
 
